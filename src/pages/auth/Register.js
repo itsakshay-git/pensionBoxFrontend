@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./auth.module.scss";
-import { TiUserAddOutline } from "react-icons/ti";
+// import { TiUserAddOutline } from "react-icons/ti";
 import Card from "../../components/card/Card";
 import { toast } from "react-toastify";
 import { registerUser, validateEmail } from "../../services/authService";

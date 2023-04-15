@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./auth.module.scss";
-import { BiLogIn } from "react-icons/bi";
+// import { BiLogIn } from "react-icons/bi";
 import Card from "../../components/card/Card";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
