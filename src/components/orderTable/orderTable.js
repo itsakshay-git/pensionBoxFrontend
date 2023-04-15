@@ -35,7 +35,7 @@ const Ordertable = () => {
 
     const getPaginatedUsers = async () => {
       
-      const response = await axios.get(`http://localhost:5000/api/users/paginatedUsers?page=${currentPage.current}&limit=${limit}`);
+      const response = await axios.get(`https://pensionbox-api.onrender.com/api/users/paginatedUsers?page=${currentPage.current}&limit=${limit}`);
       console.log(response)
         setPageCount(response.data.pageCount);
         setData(response.data.result)
